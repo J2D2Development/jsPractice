@@ -1,0 +1,24 @@
+<script type="text/javascript">
+//http://codegolf.stackexchange.com/questions/47385/bookkeeping-for-the-sex-bob-ombs-check-if-a-running-sum-ever-gets-too-low
+    (function() {
+
+        function bookkeeping(T, listInt) {
+            var end = 0;
+
+            for(var i = 0, l = listInt.length; i < l; i++) {
+                end += listInt[i];
+                if(end < T) { return false }
+            }
+
+            return true;
+            //if(end < T) { return false } else { return true }
+        }
+
+        console.log("should be false: " + bookkeeping(-5, [-6]));
+        console.log("should be false: " + bookkeeping(-5, [1,2,3,-20]));
+        console.log("should be false: " + bookkeeping(-5, [200,-300,1000]));
+        console.log("should be true: " + bookkeeping(-5, []));
+        console.log("should be true: " + bookkeeping(-5, [-5]));
+        console.log("should be true: " + bookkeeping(-5, [4,-3,-6]));
+    })();
+</script>

@@ -1,0 +1,35 @@
+<script>
+function replace(str) {
+    //need to account for non-letter characters
+    var newStr = [],
+        alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        vowels = 'aeiou';
+
+    //str = str.split('');
+    senSplit[i].replace(/[^a-z0-9]+/gi, "");
+
+    for(var i = 0, l = alpha.length; i < l; i++) {
+        for(var j = 0, ln = str.length; j < ln; j++) {
+            if(str[j] == ' ') {
+                newStr[j] = ' ';
+            } else if(alpha[i] == str[j] && str[j].match(/[a-zA-Z]/)) {
+                newStr[j] = alpha[i+1];
+            } else {
+              newStr[j] = newStr[j];
+            }
+        }
+    }
+
+    for(var x = 0, lng = vowels.length; x < lng; x++) {
+        for(var y = 0, lngt = newStr.length; y < lngt; y++) {
+            if(newStr[y] == vowels[x]) {
+                newStr[y] = newStr[y].toUpperCase();
+            }
+        }
+    }
+    return newStr.join('');
+}
+var test = "hello*3";
+console.log(test);
+console.log(replace(test));
+</script>

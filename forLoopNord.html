@@ -1,0 +1,19 @@
+<table><tr>
+<div id = 'test'>here</div>
+</table></tr>
+
+<script>
+(function() {
+    var nodes = 10;
+    var test = document.getElementById('test');
+
+    for(var c = 0; c < 2; c++) {
+        test.appendChild("<td>");
+        for(var j = 0; j < nodes.length; j++) {
+            test.appendChild("this is: " + j);
+        }
+        test.appendChild("</td>");
+    }
+    //console.log('after: ' + c);
+})();
+</script>

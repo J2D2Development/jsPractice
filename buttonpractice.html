@@ -1,0 +1,60 @@
+<!doctype HTML>
+
+<html>
+
+<head>
+    <title>Making Magic | Hello World</title>
+
+    <style type="text/css">
+        body {
+            background-color: #cccccc;
+        }
+        #changeme {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+        .newme {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>
+        <h1>This is a button!!!</h1>
+        <button id="button">Go!</button>
+    </p>
+
+    <div id="changeme"></div>
+
+    <?php print "this is a php footer..." ?>
+</body>
+
+</html>
+
+<script>
+    (function() {
+        var button = document.getElementById("button"),
+            change = document.getElementById("changeme"),
+            colors = ['red', 'green', 'blue'];
+
+        function clickedYo() {
+            console.log("Timer's done!");
+            clearInterval(timer);
+            timer = 0;
+            change.className = '';
+            //button.removeEventListener('click', clickedYo);
+        }
+
+        var timer = setInterval(function() {
+            console.log(change.className);
+            change.className = "newme";
+            //switch()
+        }, 3000);
+
+        button.addEventListener('click', clickedYo);
+
+    })();
+</script>

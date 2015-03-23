@@ -1,0 +1,67 @@
+<!doctype HTML>
+
+<html>
+
+<head>
+    <title>Drag | Drop</title>
+    <script src="observable.js"></script>
+
+    <style type = 'text/css'>
+        #widget {
+            position: absolute;
+            width: 150px;
+            background-color: green;
+            color: white;
+        }
+        #parent {
+            width: 400px;
+            height: 400px;
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="widget">Drag Me!</div>
+    </div>
+</body>
+
+<script>
+Array.prototype.concatAll = function() {
+    var results = [];
+
+    this.forEach(function(subArray) {
+        subArray.forEach(function(item) {
+            results.push(item);
+        });
+    });
+    return results;
+}
+
+var Observable = Rx.Observable;
+var parent = document.getElementById('parent');
+var widget = document.getElementById('widget');
+
+var mouseDowns = Observable.fromEvent(widget, 'mousedown');
+var parentMouseMoves = Observable.fromEvent(widget, 'mousemove');
+var parentMouseUps = Observable.fromEvent(widget, 'mouseup');
+
+var drags = mouseDowns.map(function(e) {
+        return parentMouseMoves.takeUntil(parentMouseUps);
+    }).concatAll();
+
+var subscription = drags.forEach(
+    function onNext(e) {
+        widget.style.left = e.clientX + "px";
+        widget.style.top = e.clientY + "px";
+    },
+    function onError(error) {
+        console.log('error');
+    },
+    function onCompleted() {
+
+    });
+</script>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Flatten that shit</title>
+</head>
+
+<body>
+
+<div id="display" style="padding: 5px; display: inline-block">Display will go here!</div>
+
+</body>
+
+<script>
+Array.prototype.ConcatAll = function(depth) {
+    var results = [];
+
+    switch(depth) {
+        case 1:
+            this.forEach(function(subArray) {
+                subArray.forEach(function(item) {
+                    results.push(item);
+                });
+            });
+            break;
+
+        case 2:
+            this.forEach(function(subArray) {
+                subArray.forEach(function(item) {
+                    item.forEach(function(subItem) {
+                        results.push(subItem);
+                    });
+                });
+            });
+            break;
+
+        case 3:
+            this.forEach(function(subArray) {
+                subArray.forEach(function(item) {
+                    item.forEach(function(subItem) {
+                        subItem.forEach(function(i) {
+                            results.push(i)
+                        });
+                    });
+                });
+            });
+            break;
+
+        default:
+            return this;
+    }
+
+    return results;
+}
+
+function mapMe(arr, def) {
+    return arr.map(function(a) {
+        return a.def;
+    });
+}
+
+var multiArray = [
+    //[
+        {title: "The old man and the sea", price: 123.33},
+        {title: "The Bible", price: 1000000000},
+        {title: "50 shades of gay", price: 0.00}
+    //],
+    // [
+    //     {title: "Fight Club", format: "DVD"},
+    //     {title: "Red Dawn", format: "All"},
+    //     {title: "The Cabin In the Woods", format: "Digital"},
+    // ],
+    //     [
+    //     {title: "Fast and Furious", format: "DVD"},
+    //     {title: "2 Fast 2 Furious", format: "All"},
+    //     {title: "Tokyo Drift", format: "Digital"},
+    // ]
+];
+// console.log(multiArray);
+// console.log(multiArray.ConcatAll(1));
+
+var display = document.getElementById("display");
+display.addEventListener('click', function(e) {
+    if(display.style.backgroundColor !== "rgb(204, 204, 204)") {
+        display.style.backgroundColor = "rgb(204, 204, 204)";
+        display.innerHTML = mapMe(multiArray, "title");
+    } else {
+        display.style.backgroundColor = "rgb(255, 0, 0)";
+        display.innerHTML = mapMe(multiArray, "price");
+    }
+    console.log(display.style.backgroundColor);
+});
+
+</script>
+
+</html>
