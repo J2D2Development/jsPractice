@@ -1,0 +1,772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newArray"
+			],
+			[
+				"find",
+				"findLongest"
+			],
+			[
+				"word",
+				"wordArray"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"b",
+				"background-image"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-attachment"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"multi",
+				"multiDeleteFiles"
+			],
+			[
+				"delete",
+				"multiDeleteFiles"
+			],
+			[
+				"includ",
+				"include_once"
+			],
+			[
+				"inclu",
+				"include_once"
+			],
+			[
+				"page",
+				"page_dirty"
+			],
+			[
+				"fea",
+				"feature_link_info"
+			],
+			[
+				"action",
+				"action_id"
+			],
+			[
+				"hoa",
+				"hoa_id"
+			],
+			[
+				"menu",
+				"menuitem"
+			],
+			[
+				"link",
+				"linkinfo"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"ma",
+				"maction_details"
+			],
+			[
+				"sp",
+				"spinner_bg_color"
+			],
+			[
+				"spi",
+				"spinner_main_color"
+			],
+			[
+				"spinner",
+				"spinner_bg_color"
+			],
+			[
+				"cp",
+				"cp_notices"
+			],
+			[
+				"logou",
+				"logoutRedirect"
+			],
+			[
+				"border-bo",
+				"border-bottom-left-radius"
+			],
+			[
+				"home",
+				"home_delete_notice"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"border",
+				"border-bottom-color"
+			],
+			[
+				"to",
+				"toTop"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"col",
+				"colspan"
+			],
+			[
+				"graphic",
+				"graphicMenuTable"
+			],
+			[
+				"loader",
+				"loaderWrapper"
+			],
+			[
+				"url",
+				"url_base"
+			],
+			[
+				"el",
+				"elId"
+			],
+			[
+				"localFea",
+				"localFeatureOptions"
+			],
+			[
+				"a",
+				"attributes"
+			],
+			[
+				"get",
+				"getElement"
+			],
+			[
+				"lo",
+				"localPage"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"re",
+				"restrict"
+			],
+			[
+				"ta",
+				"table-column"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"con",
+				"controllerAs"
+			],
+			[
+				"al",
+				"alt	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "functions2015-03-24.js",
+			"settings":
+			{
+				"buffer_size": 2881,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functionsPractice2015-03-24.html",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/NordEnterprises/feature.html",
+		"/C/xampp/htdocs/NordEnterprises/photoalbums.php",
+		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
+		"/C/xampp/htdocs/Wedding/httpd.conf",
+		"/C/xampp/htdocs/Wedding/ignore/.htaccess",
+		"/C/xampp/htdocs/Wedding/ignore/php.conf",
+		"/C/xampp/htdocs/Wedding/ignore/README",
+		"/C/xampp/htdocs/Wedding/ignore/root",
+		"/C/xampp/htdocs/.htaccess",
+		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
+		"/C/xampp/htdocs/Wedding/comment-panels.html",
+		"/C/xampp/htdocs/Wedding/details.html",
+		"/C/xampp/htdocs/Wedding/rsvp.html",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/Wedding/assets/js/angular.min.js",
+		"/C/xampp/htdocs/Wedding/contactus.php",
+		"/C/xampp/htdocs/Wedding/contact.html",
+		"/C/xampp/htdocs/Wedding/ignore/php.ini",
+		"/C/xampp/htdocs/Wedding/ignore/sendmail",
+		"/C/xampp/htdocs/Wedding/assets/css/cover.css",
+		"/C/xampp/htdocs/Wedding/js/ie10-bug-workaround.js",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/htdocs/NordDev/cp/mng_mail_lists.php",
+		"/C/xampp/htdocs/NordDev/cp/editmail_lists.php",
+		"/C/Users/Jackie/Documents/Nord Enterprises/Custcare-Director/Dev/futureprojects.txt",
+		"/C/xampp/htdocs/NordDev/cp/editrkrec.inc",
+		"/C/xampp/htdocs/NordDev/cp/editballotitem.php",
+		"/C/xampp/htdocs/NordDev/cp/editevent.inc",
+		"/C/xampp/htdocs/NordDev/cp/editservice.inc",
+		"/C/xampp/htdocs/NordDev/cp/logout.inc",
+		"/C/Users/Jackie/Documents/Nord Enterprises/Custcare-Director/Dev/devLog.txt",
+		"/C/xampp/htdocs/NordDev/cp/editfacres.php",
+		"/C/xampp/htdocs/NordDev/cp/upload.inc",
+		"/C/xampp/htdocs/NordDev/cp/editdocs.inc",
+		"/C/xampp/htdocs/NordDev/cp/editfac.php",
+		"/C/xampp/htdocs/NordDev/cp/style_main_cp.inc",
+		"/C/Users/Jackie/Desktop/sourcecodereview.txt",
+		"/C/Users/Jackie/Documents/Nord Enterprises/Custcare-Director/Dev/2015 Release A - ckeditor/noticeemail.txt",
+		"/C/xampp/htdocs/NordDev/style_main.inc",
+		"/C/xampp/htdocs/NordDev/cp/pages.php",
+		"/C/xampp/htdocs/NordDev/cp/editpagearea.php",
+		"/C/xampp/htdocs/NordDev/cp/login.inc",
+		"/C/xampp/htdocs/NordDev/manage.html",
+		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/link.js",
+		"/C/xampp/htdocs/NordDev/cp/pages_retrieve.php",
+		"/C/xampp/htdocs/NordDev/cp/features_retrieve.php",
+		"/C/xampp/htdocs/NordDev/pages_retrieve.php",
+		"/C/xampp/htdocs/NordDev/features_retrieve.php",
+		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/pages_retrieve.php",
+		"/C/xampp/htdocs/NordDev/feature.html",
+		"/C/xampp/htdocs/NordDev/cp/status.php",
+		"/C/xampp/htdocs/NordDev/Update Notes/2015-03-02possibleMemoryLeak.txt",
+		"/C/xampp/htdocs/NordDev/cp/cpheader.php",
+		"/C/xampp/htdocs/NordDev/cp/general.php",
+		"/C/xampp/htdocs/NordDev/cp/mng_fac.php",
+		"/C/xampp/htdocs/NordDev/cp/editevents.inc",
+		"/C/xampp/htdocs/NordDev/cp/cppage.html",
+		"/C/xampp/htdocs/NordDev/cp/editpayment.php",
+		"/C/xampp/htdocs/NordDev/cp/editmediafiles.inc",
+		"/C/xampp/htdocs/NordDev/cp/editphotoalbums.php",
+		"/C/xampp/htdocs/NordDev/cp/editpics.inc",
+		"/C/xampp/htdocs/NordDev/cp/editreqforms.php",
+		"/C/xampp/htdocs/NordDev/cp/editmbs.inc",
+		"/C/xampp/htdocs/NordDev/cp/editdir.php",
+		"/C/xampp/htdocs/NordDev/cp/editrk.inc",
+		"/C/xampp/htdocs/NordDev/cp/editballots.php",
+		"/C/xampp/htdocs/NordDev/cp/editservices.inc",
+		"/C/xampp/htdocs/NordDev/cp/editassocgov.inc",
+		"/C/xampp/htdocs/NordDev/cp/editresvtns.php",
+		"/C/xampp/htdocs/NordDev/scripts/ckeditorAdmin.js",
+		"/C/xampp/htdocs/NordDev/page/editpagearea.php",
+		"/C/xampp/htdocs/NordDev/pagemanage.html",
+		"/C/xampp/htdocs/NordDev/cp/editpage.php",
+		"/C/xampp/htdocs/NordDev/fckeditor/editor/filemanager/browser/default/frmresourceslist.html",
+		"/C/Users/Jackie/Documents/Nord Enterprises/MS Region/Las Campanas/2015-02-18 Conference Call.txt",
+		"/C/xampp/htdocs/NordDev/ckeditor/ckeditor.js",
+		"/C/xampp/htdocs/NordDev/cp/style_content_cp.inc",
+		"/C/xampp/htdocs/NordDev/notices.php",
+		"/C/Users/Jackie/Desktop/Helpful Tools/OPEN OFFICE CALC MACROS.txt",
+		"/C/xampp/htdocs/NordDev/pagemenu.inc",
+		"/C/xampp/htdocs/NordDev/style_content.inc",
+		"/C/xampp/htdocs/NordDev/scripts/jquery.js",
+		"/C/xampp/htdocs/NordDev/utilities.inc",
+		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/features_retrieve.php",
+		"/C/xampp/htdocs/NordDev/utils_files.inc",
+		"/C/xampp/htdocs/NordDev/.git/index",
+		"/C/xampp/htdocs/NordDev/cp/constants.inc",
+		"/C/Users/Jackie/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/NordDev/cp/cputilities.inc",
+		"/C/xampp/htdocs/NordDev/cp/cppage_toc.inc",
+		"/C/xampp/htdocs/NordDev/cp/feature_list.inc",
+		"/C/xampp/htdocs/NordDev/feature_menu_items.inc",
+		"/C/xampp/htdocs/NordDev/Backup Files/2015-01ckEditorBACKUP/cppageHTMLtransitional.html",
+		"/C/xampp/htdocs/unsorted.txt",
+		"/C/xampp/htdocs/NordDev/ckeditor/filemanager/browser/default/frmresourceslist.html",
+		"/C/xampp/htdocs/NordDev/ckeditor/default/frmresourceslist.html",
+		"/C/xampp/htdocs/NordDev/ckeditor/default/browser.html",
+		"/C/xampp/htdocs/NordDev/ckeditor/default/frmactualfolder.html",
+		"/C/xampp/htdocs/NordDev/ckeditor/default/connectors/php/connector.php",
+		"/C/xampp/htdocs/NordDev/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php",
+		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/linkWorkSheet.js",
+		"/C/xampp/htdocs/NordDev/page.html",
+		"/C/xampp/htdocs/NordDev/ckeditor/contents.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_gecko.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie7.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie8.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_iequirks.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_ie.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_ie7.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_ie8.css",
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_iequirks.css",
+		"/C/xampp/htdocs/NordDev/fckeditor/editor/dialog/fck_link.html",
+		"/C/Users/Jackie/Documents/Nord Enterprises/MW Region/Beach Forest/2015-02-02hostinginfo.txt",
+		"/C/xampp/htdocs/NordDev/db.inc",
+		"/C/xampp/htdocs/NordDev/fckeditor/editor/dialog/fck_link/fck_link.js",
+		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/getpages.php",
+		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/linkCompressedOld.js",
+		"/C/xampp/htdocs/NordDev/ckeditor/config.js",
+		"/C/Users/Jackie/Documents/UdacityWebDev/rot13jcd/main.py",
+		"/C/xampp/htdocs/NordDev/HelpSite/helpAds.php",
+		"/C/xampp/htdocs/NordDev/HelpSite/ad-panels.html",
+		"/C/xampp/htdocs/NordDev/HelpSite/angular-route.min.js",
+		"/C/xampp/htdocs/NordDev/HelpSite/angular.min.js",
+		"/C/xampp/htdocs/NordDev/HelpSite/helpEvents.php",
+		"/C/xampp/htdocs/NordDev/HelpSite/event-panels.html",
+		"/C/Users/Jackie/Desktop/webDevInterviewQs.txt"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"photo album",
+			"19",
+			"panel-title",
+			"mail",
+			"pull-left",
+			"muted",
+			"navbar-nav",
+			"open",
+			"navbar-nav",
+			"btn-danger",
+			"navbar-nav",
+			"alert-dan",
+			"button",
+			"form",
+			"container",
+			"navbar-header",
+			"navbar-fixed-top",
+			"navbar-brand",
+			"navbar-collapse",
+			"clearfix",
+			"php",
+			"hoa_main",
+			"driver",
+			"send message",
+			"unset",
+			"$driver",
+			"create",
+			"300",
+			"validate_doc",
+			"Icomments",
+			"validate_doc",
+			"form",
+			"file?",
+			"#upload",
+			"selected",
+			"selecteed",
+			"multiDeleteFiles",
+			"multiDele",
+			"form",
+			"file?",
+			"validate",
+			"submit",
+			"file?",
+			"selected",
+			"user uplo",
+			"Delete Selec",
+			"delete selec",
+			"delete",
+			"create",
+			"transition",
+			"Title:",
+			"properties",
+			"Enter the",
+			"enter the",
+			"title",
+			"wysiwyg",
+			"only display",
+			"only display editor",
+			"file",
+			"status",
+			"upload a new",
+			"uploaded documents",
+			"upload a new",
+			"delete selec",
+			"upload a new ",
+			"manage",
+			"delete",
+			"DOCUMENTS",
+			"$edit_url",
+			"editnew",
+			"unset",
+			"unset(",
+			"$",
+			"gcff",
+			"requestor",
+			"new reservation",
+			"&nbsp;",
+			"&nbsp;</div>",
+			"facility prop",
+			"facility descrip",
+			"feature prop",
+			"event reminder",
+			"custom no",
+			"feature proper",
+			"feature properties",
+			"loader",
+			"viewpic",
+			"reminder",
+			"etitle",
+			"editEventInit",
+			"$pagecontent",
+			"head",
+			"viewpic",
+			"$pagecontent",
+			"button",
+			"newmsg",
+			"table",
+			"message",
+			"ititle",
+			"newmsg",
+			"message",
+			"status of last",
+			"loader",
+			"$hoa_main",
+			"toolbarDiv",
+			"message",
+			"Ititle",
+			"GetFileRowHtml",
+			"GetFileRow",
+			"fileUrl",
+			"file limits",
+			"while",
+			"adminNotice",
+			"status_msg",
+			"login_msg",
+			"ctext",
+			"chlink",
+			"table",
+			"helplinks",
+			"style",
+			"loader",
+			"style",
+			"ul",
+			"min-hei",
+			"notices",
+			"css",
+			"loader",
+			"login_msg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"createLink",
+			"directorypanel",
+			"adpanel",
+			"eventpanel",
+			"container-fluid",
+			"imgpanel",
+			"userpanel",
+			"genpanel"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "functions2015-03-24.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2878,
+								2878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1611.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functionsPractice2015-03-24.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "functionsPractice.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
