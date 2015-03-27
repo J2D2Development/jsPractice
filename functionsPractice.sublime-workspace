@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"typ",
+				"typeof"
+			],
+			[
+				"str",
+				"strArr"
+			],
+			[
+				"vowel",
+				"vowelArr"
+			],
+			[
 				"new",
 				"newArray"
 			],
@@ -279,7 +291,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 2881,
+				"buffer_size": 4951,
 				"line_ending": "Windows"
 			}
 		},
@@ -324,16 +336,16 @@
 	},
 	"file_history":
 	[
+		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
+		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
 		"/C/xampp/htdocs/NordEnterprises/feature.html",
 		"/C/xampp/htdocs/NordEnterprises/photoalbums.php",
-		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
 		"/C/xampp/htdocs/Wedding/httpd.conf",
 		"/C/xampp/htdocs/Wedding/ignore/.htaccess",
 		"/C/xampp/htdocs/Wedding/ignore/php.conf",
 		"/C/xampp/htdocs/Wedding/ignore/README",
 		"/C/xampp/htdocs/Wedding/ignore/root",
 		"/C/xampp/htdocs/.htaccess",
-		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
 		"/C/xampp/htdocs/Wedding/comment-panels.html",
 		"/C/xampp/htdocs/Wedding/details.html",
 		"/C/xampp/htdocs/Wedding/rsvp.html",
@@ -631,15 +643,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2881,
+						"buffer_size": 4951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2878,
-								2878
+								4788,
+								4788
 							]
 						],
 						"settings":
@@ -649,7 +661,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1611.0,
+						"translation.y": 3264.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
