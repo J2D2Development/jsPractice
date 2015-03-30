@@ -168,4 +168,63 @@ function countLetters(string, letter) {
 
 	console.log(count);
 }
-countLetters('w3resource.com', 'o');
+//countLetters('w3resource.com', 'o');
+
+//Write a JavaScript function that accept a list of country names as input and returns the longest country name as output.
+// Sample function : Longest_Country_Name(["Australia", "Germany", "United States of America"])
+// Expected output : "United States of America"
+function countryName(ctylist) {
+
+	/*
+	**This version uses traditional for loops.  kind of ugly
+	*/
+	// var namelen = [],
+	// 	longest,
+	// 	index;
+
+	// for(var i = 0, l = ctylist.length; i < l; i++) {
+	// 	namelen.push(ctylist[i].length);
+	// }
+
+	// longest = getMaxOfArray(namelen);
+
+	// for(var j = 0, n = ctylist.length; j < n; j++) {
+	// 	if(ctylist[j].length === longest) {
+	// 		index = ctylist[j];
+	// 	}
+	// }
+
+	//console.log(index);
+	/*
+	**End of for loop nastiness
+	*/
+
+	/*
+	**Now trying higher order functions
+	*/
+	//reduce takes an array and returns only the items that pass the test of the function
+	console.log(ctylist.reduce(function(longname, ctyname) {
+		return longname.length > ctyname.length ? longname : ctyname;
+	}));
+}
+//countryName(["Australia", "Germany", "United States of America"]);
+
+//Write a JavaScript function that returns array elements larger than a number.
+function largerThan(arr, num) {
+	//using higher order functions
+	var larger = arr.map(function(n) {
+		if(n > num) {return n}
+	});
+
+	//using for loops
+	// var larger = [];
+
+	// for(var i = 0, l = arr.length; i < l; i++) {
+	// 	if(arr[i] > num) {
+	// 		larger.push(arr[i]);
+	// 	}
+	// }
+
+	console.log(larger);
+}
+largerThan([1,2,3,4,5,6,7,8,9,10], 4);

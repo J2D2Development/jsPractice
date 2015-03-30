@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"ctyname",
+				"countryName"
+			],
+			[
+				"get",
+				"getMaxOfArray"
+			],
+			[
+				"countr",
+				"countryName"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
 				"typ",
 				"typeof"
 			],
@@ -60,10 +88,6 @@
 				"style	Attr"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"font",
 				"font-size"
 			],
@@ -94,10 +118,6 @@
 			[
 				"bac",
 				"background-attachment"
-			],
-			[
-				"ba",
-				"background-repeat"
 			],
 			[
 				"backg",
@@ -244,10 +264,6 @@
 				"attributes"
 			],
 			[
-				"get",
-				"getElement"
-			],
-			[
 				"lo",
 				"localPage"
 			],
@@ -291,7 +307,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 4951,
+				"buffer_size": 6462,
 				"line_ending": "Windows"
 			}
 		},
@@ -336,8 +352,12 @@
 	},
 	"file_history":
 	[
-		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
+		"/C/xampp/htdocs/NordEnterprises/mail_lists.php",
+		"/C/Users/joedriscoll79/Downloads/phpMyAdmin-4.3.12-all-languages/phpMyAdmin-4.3.12-all-languages/README",
 		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
+		"/C/xampp/htdocs/jsPractice/functionsPractice2015-03-24.html",
+		"/C/xampp/htdocs/jsPractice/functions2015-03-24.js",
+		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
 		"/C/xampp/htdocs/NordEnterprises/feature.html",
 		"/C/xampp/htdocs/NordEnterprises/photoalbums.php",
 		"/C/xampp/htdocs/Wedding/httpd.conf",
@@ -459,15 +479,11 @@
 		"/C/Users/Jackie/Documents/UdacityWebDev/rot13jcd/main.py",
 		"/C/xampp/htdocs/NordDev/HelpSite/helpAds.php",
 		"/C/xampp/htdocs/NordDev/HelpSite/ad-panels.html",
-		"/C/xampp/htdocs/NordDev/HelpSite/angular-route.min.js",
-		"/C/xampp/htdocs/NordDev/HelpSite/angular.min.js",
-		"/C/xampp/htdocs/NordDev/HelpSite/helpEvents.php",
-		"/C/xampp/htdocs/NordDev/HelpSite/event-panels.html",
-		"/C/Users/Jackie/Desktop/webDevInterviewQs.txt"
+		"/C/xampp/htdocs/NordDev/HelpSite/angular-route.min.js"
 	],
 	"find":
 	{
-		"height": 50.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -481,6 +497,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"default",
 			"photo album",
 			"19",
 			"panel-title",
@@ -607,8 +624,7 @@
 			"min-hei",
 			"notices",
 			"css",
-			"loader",
-			"login_msg"
+			"loader"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -643,25 +659,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4951,
+						"buffer_size": 6462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4788,
-								4788
+								6177,
+								6177
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3264.0,
+						"translation.y": 4888.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -701,7 +716,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 30.0
 	},
 	"input":
 	{
