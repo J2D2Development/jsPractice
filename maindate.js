@@ -37,7 +37,7 @@ var _;
     	}
     });
 
-    console.log(canEat);
+    //console.log(canEat);
 })();
 
 // (function addEmUp() {
@@ -60,3 +60,43 @@ var _;
 
 // 	console.log(sum);
 // })();
+
+    // products = [
+    //    { name: "Sonoma", ingredients: ["artichoke", "sundried tomatoes", "mushrooms"], containsNuts: false },
+    //    { name: "Pizza Primavera", ingredients: ["roma", "sundried tomatoes", "goats cheese", "rosemary"], containsNuts: false },
+    //    { name: "South Of The Border", ingredients: ["black beans", "jalapenos", "mushrooms"], containsNuts: false },
+    //    { name: "Blue Moon", ingredients: ["blue cheese", "garlic", "walnuts"], containsNuts: true },
+    //    { name: "Taste Of Athens", ingredients: ["spinach", "kalamata olives", "sesame seeds"], containsNuts: true }
+    // ];
+
+//count the ingredient occurence - functional
+(function funIngCount(productList, ingredient) {
+  var count = 0;
+
+  productList.filter(function(x) {
+    x.ingredients.filter(function(y) {
+      if(y === ingredient) {count += 1}
+    });
+  });
+  // console.log(count);
+
+
+  // console.log(count);
+})(products, "mushrooms");
+
+//count the ingredient occurence - imperitive
+// (function ingCount(productList, ingredient) {
+//   var count = 0;
+
+//   for(var i = 0, l = productList.length; i < l; i++) {
+//     for(var j = 0, n = productList[i].ingredients.length; j < n; j++) {
+//       if(productList[i].ingredients[j] === ingredient) {
+//         count += 1;
+//       };
+//     }
+//   }
+
+//   console.log(count);
+// })(products, "mushrooms");
+
+//!!!find the difference between the sum of the squares and the square of the sums
