@@ -256,15 +256,41 @@ function sort3Num(n1, n2, n3) {
 }
 //sort3Num(0, -1, 4);
 
-// Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result.
+// !!!Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result.
 // Sample numbers : -5, -2, -6, 0, -1
 // Output : 0
+// function largestOfFive(n1, n2, n3, n4, n5) {
+// 	var numArray = [n1,n2,n3,n4,n5];
+
+// 	for(var i = 0; i < 5; i++) {
+// 		var largest;
+// 		if(numArray[i+1] > numArray[i]) {
+// 			largest = numArray[i+1];
+// 		}
+// 	}
+// 	console.log(largest);
+// }
+// largestOfFive(-5,-2,-6,0,-1);
+// largestOfFive(10,4,3,2,9);
+// largestOfFive(15, 19, -4, 0, 14);
+
 
 // Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen. Go to the editor
 // Sample Output :
 // "0 is even"
 // "1 is odd"
 // "2 is even"
+//decided to let user input limit of counting
+function evenOdd(limit) {
+	for(var i = 0, l = limit + 1; i < l; i++) {
+		if(i % 2 === 0) {
+			console.log(i + " is even");
+		} else {
+			console.log(i + " is odd");
+		}
+	}
+}
+//evenOdd(50);
 
 // Write a JavaScript program which compute, the average marks of the following students Then, this average is used to determine the corresponding grade. Go to the editor
 // Student Name 	Marks
@@ -281,3 +307,28 @@ function sort3Num(n1, n2, n3) {
 // <80 	C
 // <90 	B
 // <100 	A
+
+// Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+function fizzBuzz(limit) {
+	for(var i = 0, l = limit + 1; i < l; i++) {
+		if(i % 5 === 0 && i % 3 === 0) {
+			console.log("FizzBuzz");
+		} else if(i % 5 === 0) {
+			console.log("Buzz");
+		} else if(i % 3 === 0) {
+			console.log("Fizz");
+		} else {
+			console.log(i);
+		}
+	}
+}
+fizzBuzz(10);
+
+// According to Wikipedia a happy number is defined by the following process :
+// "Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers)".
+// Write a JavaScript program to find and print the first 5 happy numbers
+
+// Write a JavaScript program to find the armstrong numbers of 3 digits.
+// Note : An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
+
+// Write a JavaScript program to construct the following pattern, using a nested for loop.
