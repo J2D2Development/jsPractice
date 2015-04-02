@@ -306,7 +306,26 @@ function evenOdd(limit) {
 // <70 	D
 // <80 	C
 // <90 	B
-// <100 	A
+// <100 A
+function grade(student, score) {
+	var message;
+
+	if(score >= 90) {
+		message = "You got an A!";
+	} else if(score < 90 && score >= 80) {
+		message = "You nailed a B.  Not bad...";
+	} else if(score < 80 && score >= 70) {
+		message = "C is a passing grade.  C's get degrees!";
+	} else if(score < 70 && score >= 60) {
+		message = "D stands for Dumbass";
+	} else {
+		message = "Did you cheat?  I don't recognize that score.";
+	}
+	console.log("Hello " + student + ". " + message);
+}
+// grade("Frank", 95);
+// grade("Sheila", 88);
+// grade("Doofus", 66);
 
 // Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 function fizzBuzz(limit) {
@@ -322,13 +341,27 @@ function fizzBuzz(limit) {
 		}
 	}
 }
-fizzBuzz(10);
+//fizzBuzz(10);
 
-// According to Wikipedia a happy number is defined by the following process :
-// "Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers)".
-// Write a JavaScript program to find and print the first 5 happy numbers
-
-// Write a JavaScript program to find the armstrong numbers of 3 digits.
-// Note : An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
 
 // Write a JavaScript program to construct the following pattern, using a nested for loop.
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+
+function pattern(times) {
+	var stars;
+
+	for(var i = 1; i <= times; i++) {
+		for(var j = 1; j < i; j++) {
+			stars = stars + ('*');
+		}
+		console.log(stars);
+		stars = '';
+	}
+}
+//pattern(12);
+
+//Write a JavaScript program to sum the multiples of 3 and 5 under 1000

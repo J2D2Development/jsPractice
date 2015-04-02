@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
 				"num",
 				"numArray"
 			],
@@ -42,10 +54,6 @@
 			[
 				"ba",
 				"background-color"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"op",
@@ -327,7 +335,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 9978,
+				"buffer_size": 10034,
 				"line_ending": "Windows"
 			}
 		},
@@ -372,12 +380,15 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/NordEnterprises/mail_lists.php",
-		"/C/Users/joedriscoll79/Downloads/phpMyAdmin-4.3.12-all-languages/phpMyAdmin-4.3.12-all-languages/README",
 		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
+		"/C/xampp/htdocs/NordEnterprises/cp/edituser.inc",
+		"/C/xampp/htdocs/NordEnterprises/cp/style_main_cp.inc",
+		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
 		"/C/xampp/htdocs/jsPractice/functionsPractice2015-03-24.html",
 		"/C/xampp/htdocs/jsPractice/functions2015-03-24.js",
-		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
+		"/C/Users/joedriscoll79/Documents/Nord Enterprises/MS Region/Lakes at County Place/2011-11-03emailissue.txt",
+		"/C/xampp/htdocs/NordEnterprises/mail_lists.php",
+		"/C/Users/joedriscoll79/Downloads/phpMyAdmin-4.3.12-all-languages/phpMyAdmin-4.3.12-all-languages/README",
 		"/C/xampp/htdocs/NordEnterprises/feature.html",
 		"/C/xampp/htdocs/NordEnterprises/photoalbums.php",
 		"/C/xampp/htdocs/Wedding/httpd.conf",
@@ -496,10 +507,7 @@
 		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/getpages.php",
 		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/linkCompressedOld.js",
 		"/C/xampp/htdocs/NordDev/ckeditor/config.js",
-		"/C/Users/Jackie/Documents/UdacityWebDev/rot13jcd/main.py",
-		"/C/xampp/htdocs/NordDev/HelpSite/helpAds.php",
-		"/C/xampp/htdocs/NordDev/HelpSite/ad-panels.html",
-		"/C/xampp/htdocs/NordDev/HelpSite/angular-route.min.js"
+		"/C/Users/Jackie/Documents/UdacityWebDev/rot13jcd/main.py"
 	],
 	"find":
 	{
@@ -679,15 +687,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9978,
+						"buffer_size": 10034,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9080,
-								9080
+								10034,
+								10034
 							]
 						],
 						"settings":
@@ -696,7 +704,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7098.0,
+						"translation.y": 7978.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
