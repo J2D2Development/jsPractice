@@ -1,3 +1,6 @@
+//include underscore.js library (helper functions)
+var _;
+
 //Write a JavaScript function that reverse a number
 (function reverseNum(num) {
 	//reverses given number (sort of cheap- uses conversion to str, splits out to array, reverse/join, then convert back to num)
@@ -365,3 +368,136 @@ function pattern(times) {
 //pattern(12);
 
 //Write a JavaScript program to sum the multiples of 3 and 5 under 1000
+function sumMult(limit) {
+	//functional (using higher order functions)
+
+	//use underscore lib to create array within range
+	var addThese = _.range(limit + 1);
+
+	var sum = addThese.filter(function(x) {
+		return x % 3 === 0 && x % 5 === 0;
+	}).reduce(function(x,y) {
+		return x + y;
+	});
+
+	console.log(sum);
+
+	//traditional method- using for loop
+	// var addThese = [],
+	// 	sum;
+
+	// for(var i = 0; i < limit; i++) {
+	// 	if(i % 3 === 0 && i % 5 === 0) {
+	// 		addThese.push(i);
+	// 	}
+	// }
+
+	// sum = addThese.reduce(function(x,y) {
+	// 	return x + y;
+	// });
+
+	// console.log(sum);
+}
+//sumMult(100);
+
+// Write a JavaScript program to list the properties of a JavaScript object.
+// Sample object :
+var student = {
+name : "David Rayy",
+sclass : "VI",
+rollno : 12
+};
+// Sample Output : name,sclass,rollno
+function listObj(obj) {
+	//use for-in, I think listing object properties is what it's made for
+	for(prop in obj) {
+		console.log(prop);
+	}
+}
+//listObj(student);
+
+// Write a JavaScript program to delete the rollno property from the above object. Also print the object before or after deleting the property.
+function deleteProp(obj, p) {
+	console.log(obj);
+
+	for(prop in obj) {
+		if(prop === p) {
+			console.log(p + ' will be deleted');
+			delete obj[p];
+		}
+	}
+
+	console.log(obj);
+}
+//deleteProp(student, 'rollno');
+
+
+//Write a JavaScript program to get the length of an JavaScript object
+// Sample object :
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 };
+
+
+// Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books
+var library = [
+   {
+       title: 'The Road Ahead',
+       author: 'Bill Gates',
+       readingStatus: true
+   },
+   {
+       title: 'Steve Jobs',
+       author: 'Walter Isaacson',
+       readingStatus: true
+   },
+   {
+       title: 'Mockingjay: The Final Book of The Hunger Games',
+       author: 'Suzanne Collins',
+      readingStatus: false
+   }
+];
+
+function readingStatus(lib) {
+	lib.forEach(function(obj) {
+		if(obj.readingStatus) {
+			//using dot notation
+			console.log('Congrats, you\'ve read ' + obj.title);
+		} else {
+			//using brackets
+			console.log('You still need to read ' + obj['title']);
+		}
+	});
+}
+//readingStatus(library);
+
+
+// Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
+// Volume of a cylinder : V = πr2h
+// where r is the radius and h is the height of the cylinder.
+
+// Write a Bubble Sort algorithm in JavaScript.
+// Note : Bubble sort is a simple sorting algorithm that works by repeatedly stepping through the list to be sorted,
+// Sample Data : [6,4,0, 3,-2,1]
+// Expected Output : [-2, 0, 1, 3, 4, 6]
+
+
+// Write a JavaScript program which returns a subset of a string.
+// Sample Data : dog
+// Expected Output : ["d", "do", "dog", "o", "og", "g"]
+
+
+// Write a JavaScript program to create a Clock.
+// Note : The output will come every second.
+// Expected Console Output :
+// "14:37:42"
+// "14:37:43"
+// "14:37:44"
+// "14:37:45"
+// "14:37:46"
+// "14:37:47"
+
+
+// Write a JavaScript program to calculate the area and perimeter of a circle.
+// Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user.

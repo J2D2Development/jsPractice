@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"p",
-				"p	Tag"
+				"obj",
+				"object"
+			],
+			[
+				"Ipass",
+				"Ipassword1"
 			],
 			[
 				"fon",
 				"font-weight"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"p",
+				"p	Tag"
 			],
 			[
 				"min",
@@ -92,20 +108,12 @@
 				"visibility"
 			],
 			[
-				"te",
-				"text-align"
-			],
-			[
 				"pa",
 				"padding"
 			],
 			[
 				"ac",
 				"action	Attr"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"mar",
@@ -335,7 +343,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 10034,
+				"buffer_size": 13373,
 				"line_ending": "Windows"
 			}
 		},
@@ -343,7 +351,7 @@
 			"file": "functionsPractice2015-03-24.html",
 			"settings":
 			{
-				"buffer_size": 526,
+				"buffer_size": 591,
 				"line_ending": "Windows"
 			}
 		}
@@ -380,7 +388,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/joedriscoll79/server.js",
 		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
+		"/C/xampp/htdocs/javascript-koans-more/koans/AboutApplyingWhatWeHaveLearnt.js",
+		"/C/xampp/htdocs/javascript-koans-more/KoansRunner.html",
+		"/C/xampp/htdocs/javascript-koans-more/lib/underscore-min.js",
+		"/C/xampp/htdocs/jsPractice/underscore-min.js",
 		"/C/xampp/htdocs/NordEnterprises/cp/edituser.inc",
 		"/C/xampp/htdocs/NordEnterprises/cp/style_main_cp.inc",
 		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
@@ -502,12 +515,7 @@
 		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_iequirks.css",
 		"/C/xampp/htdocs/NordDev/fckeditor/editor/dialog/fck_link.html",
 		"/C/Users/Jackie/Documents/Nord Enterprises/MW Region/Beach Forest/2015-02-02hostinginfo.txt",
-		"/C/xampp/htdocs/NordDev/db.inc",
-		"/C/xampp/htdocs/NordDev/fckeditor/editor/dialog/fck_link/fck_link.js",
-		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/getpages.php",
-		"/C/xampp/htdocs/NordDev/ckeditor/plugins/link/dialogs/linkCompressedOld.js",
-		"/C/xampp/htdocs/NordDev/ckeditor/config.js",
-		"/C/Users/Jackie/Documents/UdacityWebDev/rot13jcd/main.py"
+		"/C/xampp/htdocs/NordDev/db.inc"
 	],
 	"find":
 	{
@@ -525,6 +533,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"facebook",
 			"default",
 			"photo album",
 			"19",
@@ -651,8 +660,7 @@
 			"ul",
 			"min-hei",
 			"notices",
-			"css",
-			"loader"
+			"css"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -687,15 +695,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10034,
+						"buffer_size": 13373,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10034,
-								10034
+								12369,
+								12369
 							]
 						],
 						"settings":
@@ -704,7 +712,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7978.0,
+						"translation.y": 9820.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -716,15 +724,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 526,
+						"buffer_size": 591,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								439,
+								439
 							]
 						],
 						"settings":
