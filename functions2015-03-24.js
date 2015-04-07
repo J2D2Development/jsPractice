@@ -497,6 +497,35 @@ function readingStatus(lib) {
 // "14:37:45"
 // "14:37:46"
 // "14:37:47"
+function tellTime() {
+	var timer = setInterval(function() {
+		var date = new Date(),
+			currentTime, hour, minute, second,
+			replace = document.getElementById('replace');
+
+		if(date.getHours().toString().length === 1) {
+			hour = '0' + date.getHours();
+		} else {
+			hour = date.getHours();
+		}
+
+		if(date.getMinutes().toString().length === 1) {
+			minute = '0' + date.getMinutes();
+		} else {
+			minute = date.getMinutes();
+		}
+
+		if(date.getSeconds().toString().length === 1) {
+			second = '0' + date.getSeconds();
+		} else {
+			second = date.getSeconds();
+		}
+
+		currentTime = hour + ':' + minute + ':' + second;
+		replace.innerHTML = currentTime;
+	}, 1000);
+}
+tellTime();
 
 
 // Write a JavaScript program to calculate the area and perimeter of a circle.

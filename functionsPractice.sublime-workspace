@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getSeconds"
+			],
+			[
 				"obj",
 				"object"
 			],
@@ -54,10 +58,6 @@
 			[
 				"ctyname",
 				"countryName"
-			],
-			[
-				"get",
-				"getMaxOfArray"
 			],
 			[
 				"countr",
@@ -343,7 +343,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 13373,
+				"buffer_size": 14050,
 				"line_ending": "Windows"
 			}
 		},
@@ -351,7 +351,7 @@
 			"file": "functionsPractice2015-03-24.html",
 			"settings":
 			{
-				"buffer_size": 591,
+				"buffer_size": 536,
 				"line_ending": "Windows"
 			}
 		}
@@ -686,7 +686,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -695,15 +695,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13373,
+						"buffer_size": 14050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12369,
-								12369
+								13822,
+								13822
 							]
 						],
 						"settings":
@@ -712,10 +712,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9820.0,
+						"translation.y": 11514.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -724,15 +724,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 591,
+						"buffer_size": 536,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								439,
-								439
+								330,
+								330
 							]
 						],
 						"settings":
@@ -744,7 +744,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
