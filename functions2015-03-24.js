@@ -530,6 +530,16 @@ tellTime();
 
 // Write a JavaScript program to calculate the area and perimeter of a circle.
 // Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user.
+function circleAreaPerimiter(radius) {
+	var area, perimeter;
+
+	area = Math.PI * Math.pow(radius, 2);
+	perimeter = 2 * Math.PI * radius;
+
+	console.log('A circle with radius ' + radius + ' has ' +
+				'an area of ' + area + ' and a perimeter of ' + perimeter);
+}
+//circleAreaPerimiter(5);
 
 // Write a JavaScript function to check whether an `input` is an array or not.
 // Test Data :
@@ -537,6 +547,12 @@ tellTime();
 // console.log(is_array([1, 2, 4, 0]));
 // false
 // true
+function checkIfArray(arr) {
+	//the isArray function exists on the array prototype
+	console.log(Array.isArray(arr));
+}
+//checkIfArray([1, 2, 4, 0]);
+//checkIfArray('w3resource');
 
 // Write a JavaScript function to clone an array.
 // Test Data :
@@ -544,6 +560,13 @@ tellTime();
 // console.log(array_Clone([1, 2, [4, 0]]));
 // [1, 2, 4, 0]
 // [1, 2, [4, 0]]
+function cloneArray(arr) {
+	//use slice function (built in) to take 'slice' of entire array
+	var newArr = arr.slice('');
+	console.log(newArr);
+}
+//cloneArray([1, 2, [4, 0]]);
+//cloneArray([1, 2, 4, 0]);
 
 // Write a JavaScript function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array.
 // Test Data :
@@ -558,6 +581,18 @@ tellTime();
 // [7, 9, 0]
 // [7, 9, 0, -2]
 // []
+function getFirstEl(arr, n = 0) {
+	if(n === 0) {
+		console.log(arr[n]);
+	} else {
+		console.log(arr.slice(0, n));
+	}
+}
+// getFirstEl([7, 9, 0, -2]);
+// getFirstEl([],3);
+// getFirstEl([7, 9, 0, -2],3);
+// getFirstEl([7, 9, 0, -2],6);
+// getFirstEl([7, 9, 0, -2],-3);
 
 // Write a JavaScript function to get the last element of an array. Passing a parameter 'n' will return the last 'n' elements of the array.
 // Test Data :
@@ -575,8 +610,21 @@ tellTime();
 // "Red,Green,White,Black"
 // "Red,Green,White,Black"
 // "Red+Green+White+Black"
+function makeString(arr) {
+	var str = arr.join(',');
+	console.log(str);
+}
+// var myColor = ["Red", "Green", "White", "Black"];
+// makeString(myColor);
 
 // Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers. For example if you accept 025468 the output should be 0-254-6-8.
+function dashEven(num) {
+	var numStr = num.toString();
+	var numArray = numStr.split('');
+
+
+}
+dashEven(025468);
 
 // Write a JavaScript program to sort the items of an array.
 // Sample array : var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ];

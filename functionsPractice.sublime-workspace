@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"clo",
+				"cloneArray"
+			],
+			[
 				"get",
 				"getSeconds"
 			],
@@ -343,7 +347,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 19178,
+				"buffer_size": 20376,
 				"line_ending": "Windows"
 			}
 		},
@@ -388,8 +392,8 @@
 	},
 	"file_history":
 	[
-		"/C/Users/joedriscoll79/server.js",
 		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
+		"/C/Users/joedriscoll79/server.js",
 		"/C/xampp/htdocs/javascript-koans-more/koans/AboutApplyingWhatWeHaveLearnt.js",
 		"/C/xampp/htdocs/javascript-koans-more/KoansRunner.html",
 		"/C/xampp/htdocs/javascript-koans-more/lib/underscore-min.js",
@@ -695,15 +699,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19178,
+						"buffer_size": 20376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14130,
-								14130
+								16794,
+								16794
 							]
 						],
 						"settings":
@@ -712,7 +716,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12262.0,
+						"translation.y": 14022.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
