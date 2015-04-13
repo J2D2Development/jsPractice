@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"fin",
+				"findFrequent"
+			],
+			[
+				"initial",
+				"initialColor"
+			],
+			[
+				"getE",
+				"getElementsByClassName"
+			],
+			[
+				"boxes",
+				"boxesClass"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
 				"clo",
 				"cloneArray"
 			],
@@ -22,10 +46,6 @@
 			[
 				"fon",
 				"font-weight"
-			],
-			[
-				"te",
-				"text-decoration"
 			],
 			[
 				"text",
@@ -347,7 +367,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 20376,
+				"buffer_size": 21453,
 				"line_ending": "Windows"
 			}
 		},
@@ -355,7 +375,7 @@
 			"file": "functionsPractice2015-03-24.html",
 			"settings":
 			{
-				"buffer_size": 536,
+				"buffer_size": 1066,
 				"line_ending": "Windows"
 			}
 		}
@@ -699,15 +719,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20376,
+						"buffer_size": 21453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16794,
-								16794
+								17722,
+								17722
 							]
 						],
 						"settings":
@@ -716,7 +736,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 14110.0,
+						"translation.y": 15031.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -728,15 +748,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 536,
+						"buffer_size": 1066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								330,
-								330
+								851,
+								851
 							]
 						],
 						"settings":
@@ -745,7 +765,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

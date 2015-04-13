@@ -527,6 +527,22 @@ function tellTime() {
 }
 tellTime();
 
+function changeColor() {
+	var boxesClass = document.getElementsByClassName('changeme');
+	var boxes = Array.prototype.slice.call(boxesClass);
+	var colorArray = ['red', 'green'];
+	var timer;
+
+	boxes.forEach(function(box) {
+		colorArray.forEach(function(color) {
+			box.style.background = color;
+			box.innerHTML = "Hi";
+		});
+	});
+}
+var colorButton = document.getElementById('changeColors');
+colorButton.addEventListener('click', changeColor);
+
 
 // Write a JavaScript program to calculate the area and perimeter of a circle.
 // Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user.
@@ -619,20 +635,50 @@ function makeString(arr) {
 
 // Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers. For example if you accept 025468 the output should be 0-254-6-8.
 function dashEven(num) {
+	var addMe = '';
 	var numStr = num.toString();
 	var numArray = numStr.split('');
-
+	numArray.forEach(function(num) {
+		if(num % 2 == 0) {
+			console.log(num);
+			addMe += num + '-';
+		} else {
+			addMe += num;
+		}
+	});
+	console.log(addMe);
 
 }
-dashEven(025468);
+//dashEven(025468);
 
 // Write a JavaScript program to sort the items of an array.
 // Sample array : var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 // Sample Output : -4,-3,1,2,3,5,6,7,8
+function sortArray(arr) {
+	console.log(arr.sort());
+}
+// var arr1 = [ 3, 8, 7, 6, 5, -4, -3, 2, 1 ];
+// sortArray(arr1);
 
+//!!!
 // Write a JavaScript program to find the most frequent item of an array.
 // Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 // Sample Output : a ( 5 times )
+function findFrequent(arr) {
+	var most,
+		count = 0,
+		mostArr = [];
+
+	for(var i = 0, l = arr.length; i < l; i++) {
+		if(arr[i] === arr[i+1]) {
+			count += 1;
+			most = {name: arr[i], times: count};
+		}
+	}
+	console.log(most.name + ' ' + most.times);
+}
+var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+findFrequent(arr1);
 
 // Write a JavaScript program which accept a string as input and swap the case of each character. For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'.
 
