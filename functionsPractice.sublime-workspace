@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"binar",
+				"binarySearch"
+			],
+			[
 				"fin",
 				"findFrequent"
 			],
@@ -367,7 +371,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 21453,
+				"buffer_size": 25701,
 				"line_ending": "Windows"
 			}
 		},
@@ -412,7 +416,16 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/Wedding/guestbook.html",
+		"/C/xampp/htdocs/Wedding/reloadcomments.php",
+		"/C/xampp/htdocs/Wedding/submitcomment.php",
+		"/C/xampp/htdocs/Wedding/home.html",
 		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
+		"/C/xampp/htdocs/j2d2Development/j2d2Blog/dbConnect.php",
+		"/C/xampp/htdocs/jsPractice/functionsPractice2015-03-24.html",
+		"/C/xampp/htdocs/jsPractice/functions2015-03-24.js",
+		"/C/xampp/htdocs/NordEnterprises/Update Notes/futureprojects.txt",
+		"/C/xampp/htdocs/NordEnterprises/Update Notes/devLog.txt",
 		"/C/Users/joedriscoll79/server.js",
 		"/C/xampp/htdocs/javascript-koans-more/koans/AboutApplyingWhatWeHaveLearnt.js",
 		"/C/xampp/htdocs/javascript-koans-more/KoansRunner.html",
@@ -421,8 +434,6 @@
 		"/C/xampp/htdocs/NordEnterprises/cp/edituser.inc",
 		"/C/xampp/htdocs/NordEnterprises/cp/style_main_cp.inc",
 		"/C/Users/joedriscoll79/Desktop/Programming Practice/sourcecodereview.txt",
-		"/C/xampp/htdocs/jsPractice/functionsPractice2015-03-24.html",
-		"/C/xampp/htdocs/jsPractice/functions2015-03-24.js",
 		"/C/Users/joedriscoll79/Documents/Nord Enterprises/MS Region/Lakes at County Place/2011-11-03emailissue.txt",
 		"/C/xampp/htdocs/NordEnterprises/mail_lists.php",
 		"/C/Users/joedriscoll79/Downloads/phpMyAdmin-4.3.12-all-languages/phpMyAdmin-4.3.12-all-languages/README",
@@ -532,14 +543,7 @@
 		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie7.css",
 		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie8.css",
 		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_iequirks.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_ie.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_ie7.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_ie8.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog_iequirks.css",
-		"/C/xampp/htdocs/NordDev/fckeditor/editor/dialog/fck_link.html",
-		"/C/Users/Jackie/Documents/Nord Enterprises/MW Region/Beach Forest/2015-02-02hostinginfo.txt",
-		"/C/xampp/htdocs/NordDev/db.inc"
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog.css"
 	],
 	"find":
 	{
@@ -719,15 +723,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21453,
+						"buffer_size": 25701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17722,
-								17722
+								20385,
+								20385
 							]
 						],
 						"settings":
@@ -736,7 +740,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 15031.0,
+						"translation.y": 17446.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -755,8 +759,8 @@
 						"selection":
 						[
 							[
-								851,
-								851
+								0,
+								0
 							]
 						],
 						"settings":

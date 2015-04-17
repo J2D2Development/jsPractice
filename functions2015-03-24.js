@@ -677,8 +677,8 @@ function findFrequent(arr) {
 	}
 	console.log(most.name + ' ' + most.times);
 }
-var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
-findFrequent(arr1);
+//var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+//findFrequent(arr1);
 
 // Write a JavaScript program which accept a string as input and swap the case of each character. For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'.
 
@@ -696,6 +696,26 @@ findFrequent(arr1);
 // Write a JavaScript program to find the sum of squares of a numeric vector.
 
 // Write a JavaScript program to compute the sum and product of an array of integers.
+var lostArr = [4,8,15,16,33,42];
+function computeArray(arr, choice) {
+	var result;
+
+	if(choice[0] === 'a') {
+		result = arr.reduce(function(x,y) {
+			return x + y;
+		});
+	} else if(choice[0] === 'm') {
+		result = arr.reduce(function(x,y) {
+			return x * y;
+		});
+	} else {
+		result = 'Unknown operator';
+	}
+	console.log(result);
+}
+// computeArray(lostArr, 'add');
+// computeArray(lostArr, 'm');
+// computeArray(lostArr, 'fuck');
 
 // Write a JavaScript program to add items in an blank array and display the items.
 // Sample Screen :
@@ -715,7 +735,21 @@ findFrequent(arr1);
 
 // Find the leap years in a given range of years.
 
-// Write a JavaScript program to shuffle an array.
+// !!!Write a JavaScript program to shuffle an array.
+function shuffleArray(arr) {
+	var shuffled = [],
+		init = [],
+		newPos;
+
+	for(var i = 0, l = arr.length; i < l; i++) {
+		newPos = Math.floor(Math.random() * (arr.length - 0)) + 0;
+		var newNum = arr.pop(arr[newPos]);
+		shuffled.push(newNum);
+	}
+	console.log("Initial: " + arr);
+	console.log("Shuffled: " + shuffled);
+}
+//shuffleArray(lostArr);
 
 // Write a JavaScript program to perform a binary search.
 // Note : A binary search or half-interval search algorithm finds the position of a specified input value within an array sorted by key value.
@@ -724,6 +758,17 @@ findFrequent(arr1);
 // Expected Output :
 // console.log(binary_Search(items, 1)); //0
 // console.log(binary_Search(items, 5)); //4
+var items = [1, 2, 3, 4, 5, 7, 8, 9];
+function binarySearch(arr, num) {
+	if(arr.indexOf(num) !== -1) {
+		console.log(num + ' found at position ' + arr.indexOf(num));
+	} else {
+		console.log(num + ' not found in array');
+	}
+}
+binarySearch(items, 1);
+binarySearch(items, 5);
+binarySearch(items, 17);
 
 // There are two arrays with individual values, write a JavaScript program to compute the sum of each individual index value from the given arrays.
 // Sample array :
@@ -759,3 +804,63 @@ findFrequent(arr1);
 // console.log(difference([1, 2, 3, 4, 5], [1, [2], [3, [[4]]],[5,6]]));
 // ["1", "2", "3", "10", "100"]
 // ["1", "2", "3", "4", "5", "6"]
+
+// Primitive types: write a program that takes as input an integer, N, and prints all the integers from 1 to N, replacing numbers divisible by 3 with "fizz", numbers divisible by 5 with "buzz", and numbers divisible by both with "fizz buzz".
+function fizzbuzzagain(limit) {
+	for(var i = 1; i < limit + 1; i++) {
+		if(i % 3 === 0 && i % 5 === 0) {
+			console.log('Fizz Buzz!');
+		} else if(i % 3 === 0) {
+			console.log('fizz');
+		} else if(i % 5 === 0) {
+			console.log('buzz');
+		} else {
+			console.log(i);
+		}
+	}
+}
+//fizzbuzzagain(100);
+
+//  Arrays: Write a program that tests if a 2D square array is symmetric about the diagonal from (0,0) to (n-1,n-1).
+
+
+// Strings: Write a program to find the longest substring that consists of a single character in an input string.
+
+
+// Linked Lists: Implement a doubly linked list of integers class. Write a reverse method for your list class that reverses a list without changing the node contents.
+
+
+// Stacks and Queues: Write a programt to evaluate arithmetical expressions that use + and * applied to nonnegative integer arguments. Expressions are in reverse-Polish notation, e.g., 3 4 + 5 *, 1 3 + 5 7 + *.
+
+
+// Binary Trees: Write inorder, preorder and postorder traversal methods for a binary tree. (You will need to implement a class suitable for representing binary trees, but do not need to implement add, lookup, delete, etc. methods.)
+
+
+// Heaps: Write a program that builds a max-heap from an integer array. (You will need to implement a class suitable for representing heaps, but do not need to implement extract-max, insert key, etc.)
+
+
+// Searching: Write a nonrecursive program to perform binary search over a sorted array.
+
+
+// Hash tables: Write a program that finds the most common object in an array of objects. The objects consists of pairs of strings. Treat strings as being the same if they are equal when converted to lower case.
+
+
+// BSTs: Write a program that searches a BST on integer keys for a given value. (You will need to implement a class suitable for representing BSTs, but do not need to implement add, lookup, delete, etc. methods.)
+
+
+// Write a recursive program that takes as input positive integers x and N, and returns x to the power N. You should use O(log N) multiplications.
+function recursivePow(x, N) {
+	return x * x
+}
+
+
+// Dynamic Programming: Write a program that takes a positive integer N, and returns the number of binary strings of length N such that there are no consecutive 1s. For example, if N = 3, the result is 5, corresponding to the strings 000, 001, 010, 100, 101.
+
+
+// Greedy Algorithms and Invariants: Write a program that takes an input a positive integer N, and returns the minimum number of coins in the US coinage system to create N cents. For example, if N = 37, the answer is 4, corresponding to a quarter, a dime, and two pennies.
+
+
+// Graphs: Implement Depth First Search and Breadth First Search. (You will need to implement classes suitable to representing graphs.)
+
+
+// Parallel Computing: Write a program which uses two threads to print the numbers from 1 to 100 in order. One thread can only print odd numbers, the other can only print even numbers.
