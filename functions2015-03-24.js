@@ -681,6 +681,22 @@ function findFrequent(arr) {
 //findFrequent(arr1);
 
 // Write a JavaScript program which accept a string as input and swap the case of each character. For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'.
+function stringSwap(str) {
+	var i = 0;
+	var l = str.length;
+	var newStr = '';
+
+	for (var i; i < l; i+=1) {
+		if(str[i] === str[i].toUpperCase()) {
+			newStr += str[i].toLowerCase();
+		} else {
+			newStr += str[i].toUpperCase();
+		}
+	}
+	console.log(newStr);
+}
+// var initial = 'The Quick Brown Fox';
+// stringSwap(initial);
 
 // Write a JavaScript program which prints the elements of the following array.
 // Note : Use nested for loops.
