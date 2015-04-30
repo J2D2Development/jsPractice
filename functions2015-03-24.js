@@ -26,23 +26,17 @@ function palCheck(w) {
 // palCheck("fuck you bitch");
 
 //Write a JavaScript function that generates all combinations of a string.
-//!!!
 function strCombo(w) {
-	//blank string variable to update
-	var intWord = '',
-		count = 0,
-		wordArray = [];
-	//loop through all letters
-	while(count < w.length) {
-		for(var i = 0, l = w.length; i < l; i++) {
-			intWord += w[i];
+	var substr = [];
+
+	for(var x = 0, l = w.length; x < l; x+=1) {
+		for(var y = x + 1; y <= l; y+=1) {
+			substr.push(w.substr(x,y));
 		}
-		count += 1;
 	}
-	wordArray.push(intWord);
-	console.log(wordArray);
+	console.log(substr);
 }
-//strCombo('dog');
+// strCombo('dog');
 
 
 //Write a JavaScript function that returns a passed string with letters in alphabetical order.
@@ -132,6 +126,54 @@ function vowelCount(str) {
 }
 //vowelCount('The quick brown fox');
 
+//
+//Start Recursion
+//Use recursion to solve the following exercises.
+//
+
+// Write a JavaScript program to calculate the factorial of a number.
+// In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n. For example, 5! = 5 x 4 x 3 x 2 x 1 = 120
+function numFactorial(num) {
+	num = +num;
+
+	while(num > 0) {
+		console.log(num * numFactorial(num - 1));
+	}
+
+}
+numFactorial(5);
+
+// Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers.
+
+// Write a JavaScript program to get the integers in range (x, y).
+// Example : range(2, 9)
+// Expected Output : [3, 4, 5, 6, 7, 8]
+
+
+// Write a JavaScript program to compute the sum of an array of integers.
+// Example : var array = [1, 2, 3, 4, 5, 6]
+// Expected Output : 21
+
+// Write a JavaScript program to compute the exponent of a number.
+// Note : The exponent of a number says how many times the base number is used as a factor.
+// 82 = 8 x 8 = 64. Here 8 is the base and 2 is the exponent.
+
+// Write a JavaScript program to get the first n Fibonacci numbers
+// Note : The Fibonacci Sequence is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . . Each subsequent number is the sum of the previous two.
+
+// Write a JavaScript program to check whether a number is even or not.
+
+// Write a JavaScript program for binary search.
+// Sample array : [0,1,2,3,4,5,6]
+// console.log(l.br_search(5)) will return '5'
+
+// Write a merge sort program in JavaScript
+// Sample array : [34,7,23,32,5,62]
+// Sample output : [5, 7, 23, 32, 34, 62]
+
+//
+//End Recursion section
+//
 
 
 // Write a JavaScript function that accepts a number as a parameter and check the number is prime or not.
@@ -736,6 +778,23 @@ function computeArray(arr, choice) {
 // Write a JavaScript program to add items in an blank array and display the items.
 // Sample Screen :
 // add elements in an blank array
+function addItems() {
+	var argArray = Array.prototype.slice.call(arguments);
+
+	if(argArray.length !== 0) {
+		if (typeof argArray[0] === 'string') {
+			console.log(argArray.join(' '));
+		} else if (typeof argArray[0] === 'number') {
+			console.log(argArray.reduce(function(x,y) {
+				return x + y;
+			}));
+		} else {
+			console.log('Mixed args not yet accepted');
+		}
+	}
+}
+// addItems('Hello', 'you', 'dumb', 'fuck');
+// addItems(1, 2, 3, 4, 5);
 
 // Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
 
@@ -782,9 +841,9 @@ function binarySearch(arr, num) {
 		console.log(num + ' not found in array');
 	}
 }
-binarySearch(items, 1);
-binarySearch(items, 5);
-binarySearch(items, 17);
+// binarySearch(items, 1);
+// binarySearch(items, 5);
+// binarySearch(items, 17);
 
 // There are two arrays with individual values, write a JavaScript program to compute the sum of each individual index value from the given arrays.
 // Sample array :
@@ -841,6 +900,20 @@ function fizzbuzzagain(limit) {
 
 
 // Strings: Write a program to find the longest substring that consists of a single character in an input string.
+//!!!Not what they're asking- possible recursive function to get this right?
+function longestSub(single, str) {
+	var i = 0;
+	var count = 0;
+	var l = str.length;
+
+	for (i; i < l; i+=1) {
+		if (str[i] === single) {
+			count += 1;
+		}
+	}
+	console.log(single + ' is in the string "' + str + '" ' + count + ' times');
+}
+// longestSub('s', 'This is a long string, count the times a letter is in it');
 
 
 // Linked Lists: Implement a doubly linked list of integers class. Write a reverse method for your list class that reverses a list without changing the node contents.

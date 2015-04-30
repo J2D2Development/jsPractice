@@ -371,7 +371,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 26024,
+				"buffer_size": 26873,
 				"line_ending": "Windows"
 			}
 		},
@@ -416,11 +416,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
 		"/C/xampp/htdocs/Wedding/guestbook.html",
 		"/C/xampp/htdocs/Wedding/reloadcomments.php",
 		"/C/xampp/htdocs/Wedding/submitcomment.php",
 		"/C/xampp/htdocs/Wedding/home.html",
-		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
 		"/C/xampp/htdocs/j2d2Development/j2d2Blog/dbConnect.php",
 		"/C/xampp/htdocs/jsPractice/functionsPractice2015-03-24.html",
 		"/C/xampp/htdocs/jsPractice/functions2015-03-24.js",
@@ -723,15 +723,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26024,
+						"buffer_size": 26873,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18722,
-								18722
+								24159,
+								24159
 							]
 						],
 						"settings":
@@ -740,7 +740,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 15928.0,
+						"translation.y": 396.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
