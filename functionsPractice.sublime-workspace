@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"num",
+				"numFactorial"
+			],
+			[
 				"binar",
 				"binarySearch"
 			],
@@ -62,10 +66,6 @@
 			[
 				"min",
 				"min-height"
-			],
-			[
-				"num",
-				"numArray"
 			],
 			[
 				"largets",
@@ -371,7 +371,7 @@
 			"file": "functions2015-03-24.js",
 			"settings":
 			{
-				"buffer_size": 28436,
+				"buffer_size": 28583,
 				"line_ending": "Windows"
 			}
 		},
@@ -723,15 +723,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28436,
+						"buffer_size": 28583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4096,
-								4096
+								4504,
+								4504
 							]
 						],
 						"settings":
@@ -740,7 +740,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2926.0,
+						"translation.y": 3124.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

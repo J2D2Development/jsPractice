@@ -133,21 +133,33 @@ function vowelCount(str) {
 
 // Write a JavaScript program to calculate the factorial of a number.
 // In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n. For example, 5! = 5 x 4 x 3 x 2 x 1 = 120
-//!!! working on this now
 function numFactorial(num) {
 	num = +num;
 
-	//this doesn't work- too much recursion error
-	console.log(num * numFactorial(num - 1));
+	if(num === 0) {
+		return 1;
+	}
+
+	return num * numFactorial(num - 1);
 
 }
-numFactorial(5);
+//console.log(numFactorial(5));
 
 // Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers.
 
 // Write a JavaScript program to get the integers in range (x, y).
 // Example : range(2, 9)
 // Expected Output : [3, 4, 5, 6, 7, 8]
+function intRange(x, y) {
+	if(y - x === 2) {
+		return [x + 1];
+	} else {
+		var range = intRange(x, y - 1);
+		range.push(y - 1);
+		return range;
+	}
+}
+console.log(intRange(2, 9));
 
 
 // Write a JavaScript program to compute the sum of an array of integers.
