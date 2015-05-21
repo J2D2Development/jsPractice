@@ -1,0 +1,51 @@
+<!doctype HTML>
+
+<html lang='en'>
+
+    <head>
+        <title>Color me badddd</title>
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                padding: 0;
+                margin: 0;
+                font-size: 0;
+            }
+            div {
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    </head>
+
+    <body id = 'body'>
+    </body>
+
+    <script type="text/javascript">
+    //idea is to create entire rgb spectrum.  currently only works with one color, also, very slow/inefficent code
+        (function() {
+            var r = 0, g = 0, b = 0;
+
+            function createColor() {
+                for(var i = 0; i < 255; i += 1) {
+                    if(b < 255) {
+                        b += 1;
+                    }
+                    for(var j = 0; j < 255; j += 1) {
+                        var newDiv = document.createElement('div');
+                        newDiv.style.display = 'inline-block';
+                        newDiv.style.width = '1px';
+                        newDiv.style.height = '1px';
+                        newDiv.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
+                        document.body.appendChild(newDiv);
+                    }
+                }
+            }
+            createColor();
+
+        }());
+    </script>
+
+</html>

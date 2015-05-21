@@ -73,4 +73,33 @@ function applyf(fun) {
         };
     };
 }
-//Above function doesn't seem to work with last method (calling all on same line)
+
+//6) Function that takes function and argument and can be given a 2nd argument to return function's result on 1st and 2nd arg
+function curry(fun, ar) {
+  return function(x) {
+    return fun(ar, x);
+  };
+};
+
+// add3 = curry(add, 3);
+// console.log(add3(4));
+// console.log(curry(mul, 5)(6));
+
+//7) Write 'methodize', a function that converts a binary function to a method
+function methodize(fn) {
+  return function(x) {
+    return fn(this, x);
+  }
+}
+
+// Number.prototype.add = methodize(add);
+// console.log((3).add(4));
+
+//8) Write 'demothodize', a function that converts a method to a binary function
+function demethodize(fn) {
+  return function(that, y) {
+    return fn.call(that, y);
+  }
+}
+//in this case, 'that' becomes 'this' keyword (can't use this as it's reserved)
+//console.log(demethodize(Number.prototype.add)(5, 6));

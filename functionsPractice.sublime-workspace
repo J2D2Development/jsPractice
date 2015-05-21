@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"backgroundColor"
+			],
+			[
+				"create",
+				"createColor"
+			],
+			[
 				"num",
 				"numFactorial"
 			],
@@ -94,10 +102,6 @@
 			[
 				"font-s",
 				"font-style"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"op",
@@ -416,6 +420,9 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/jsPractice/colorscreen.html",
+		"/C/xampp/htdocs/RainbowRoller/main.js",
+		"/C/xampp/htdocs/jsPractice/good-parts-q1-5.js",
 		"/C/Users/joedriscoll79/Documents/2011passwords.txt",
 		"/C/xampp/htdocs/Wedding/guestbook.html",
 		"/C/xampp/htdocs/Wedding/reloadcomments.php",
@@ -540,10 +547,7 @@
 		"/C/xampp/htdocs/NordDev/ckeditor/contents.css",
 		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_gecko.css",
 		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie7.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie8.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_iequirks.css",
-		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/dialog.css"
+		"/C/xampp/htdocs/NordDev/ckeditor/skins/moono/editor_ie7.css"
 	],
 	"find":
 	{
@@ -714,7 +718,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -740,10 +744,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3124.0,
+						"translation.y": 3058.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -769,10 +773,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 132.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
