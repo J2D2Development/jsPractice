@@ -103,3 +103,71 @@ function demethodize(fn) {
 }
 //in this case, 'that' becomes 'this' keyword (can't use this as it's reserved)
 //console.log(demethodize(Number.prototype.add)(5, 6));
+
+//9) Write 'twice' that takes a binary function and returns a unary function that passes its argument to the binary function twice
+function twice(fn) {
+  return function(x) {
+    return fn(x, x);
+  }
+}
+//var double = twice(add);
+//double(11); // = 22
+
+//10) Write 'composeu' that takes two unary functions and returns a unary function that calls them both
+function composeu(fn1, fn2) {
+  return function(x) {
+    return fn2(fn1(x));
+  }
+}
+//composeu(double, square)(3); // = 36
+
+//11) Write 'composeb' that takes two binary functions and returns a function that calls them both
+function composeb(fn1, fn2) {
+  return function(x, y, z) {
+    return fn2(fn1(x, y), z);
+  }
+}
+//composeb(add, mul) (2, 3, 5); // -> 25
+
+//12) Write 'add_once' that allows another function to only be called once
+function once(fx) {
+  return function() {
+    var f = fx;
+    fx = null;
+    f.apply(this, arguments);
+  }
+}
+//add_once = once(add);
+//add_once(3, 4); -> 7
+//add_once(3, 4); -> error!
+
+//13) Write counterf that returns two functions that implement and up/down counter
+function counterf(start) {
+  return {
+    inc: function() {
+      return start += 1;
+    },
+    dec: function() {
+      return start -= 1;
+    }
+  }
+}
+// var counter = counterf(10);
+// counter.inc() // -> 11
+// counter.dec() // -> 10
+
+//14) Write 'revocable' that takes a nice function and returns a 'revoke' function tha tdenies access to the function, and an invoke function, that can invoke the nice function until it's revoked
+function revocable(fx) {
+  return {
+    invoke: function() {
+      return fx.apply(this, arguments);
+    },
+    revoke: function() {
+      fx = null;
+    }
+  }
+}
+// var temp = revocable(alert);
+// temp.invoke(7); // -> alert: 7
+// temp.revoke();
+// temp.invoke(8); // -> error
